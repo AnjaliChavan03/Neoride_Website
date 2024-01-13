@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Vehicle Selection</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #A979EF; 
+        }
+
+        .vehicle-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .vehicle {
+            background-color: #111;
+            color: #fff;
+            border: 2px solid #A979EF; 
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .vehicle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+        }
+
+        .vehicle img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Choose Your Neon Ride</h1>
+        <ul class="vehicle-list">
+            <li class="vehicle">
+                <a href="index (2).html"><img src="hovercars1.jpg" alt="Car"></a>
+                <h2>Hovercars</h2>
+                <p>Neon hovercars are futuristic vehicles equipped with anti-gravity technology that allows them to
+                    effortlessly glide above the ground. Their sleek, aerodynamic designs and vibrant neon accents
+                    make them an iconic symbol of advanced transportation in science fiction, combining cutting-edge
+                    engineering with a visually stunning aesthetic.</p>
+            </li>
+            <li class="vehicle">
+                <a href="index (2).html"><img src="bike2.jpg" alt="Bike"></a>
+                <h2>Neo Cruisers</h2>
+                <p>Neo Cruisers are vibrant and stylish two-wheelers that feature eye-catching neon-colored
+                    frames and accessories. They are designed to make a bold and energetic statement, combining 
+                    retro aesthetics with modern design for riders who want a fun and distinctive riding experience.
+                    Its performance matches its bold appearance, delivering a thrilling and unforgettable riding
+                    experience for those who dare to stand out.</p>
+            </li>
+            <li class="vehicle">
+                <a href="index (2).html"><img src="bike1.webp" alt="Bicycle"></a>
+                <h2>Neon Haulers</h2>
+                <p>Neo Haulers are futuristic two-wheelers characterized by their sleek, angular 
+                    designs and vivid neon lighting. These high-tech bikes seamlessly blend into the dystopian 
+                    cityscape, equipped with advanced digital displays and electric propulsion for a thrilling,
+                    eco-friendly ride through the neon-lit urban jungle.</p>
+            </li>
+            <li class="vehicle">
+                <a href="index (2).html"><img src="hyperloop.jpeg" alt="Maglev train"></a>
+                <h2>Neo Loop Express</h2>
+                <p>Neo Loop Express are futuristic public transportation systems characterized by their sleek, 
+                    high-tech design, and vibrant neon lighting. These cutting-edge transport networks use advanced 
+                    magnetic levitation technology to propel passenger pods through vacuum tubes at incredible speeds.  
+                    With their neon-lit tunnels and cyberpunk aesthetics, these hyperloops epitomize the fusion of technology 
+                    and urban aesthetics in a dystopian future.</p>
+            </li>
+            
+        </ul>
+    </div>
+</body>
+</html>

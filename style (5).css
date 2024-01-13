@@ -1,0 +1,260 @@
+
+
+body {
+    background-image: url(bg22.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    opacity: 2;
+    
+}
+
+.glitch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+}
+
+/* Styling for the logo image itself */
+.glitch img {
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* If you want a circular logo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Hover effect for the logo image */
+.glitch img:hover {
+    transform: scale(1.1); /* Slightly scale up on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+
+/*
+#glitch
+{
+margin-left:500px;    width: 500px;
+    height: 300px;
+    z-index: 1;
+}
+*/
+header {
+    background-color: #222;
+    color: #e2dbe3;
+text-shadow: #a02fd9;
+
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nav-links {
+    margin-left: 1100px;
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #a02fd9;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff6600;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f0d9eb;
+    
+}
+
+.service {
+    color: #dad3fa;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #090909;
+    font-size: x-large;
+}
+
+.service img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.new{
+    
+    margin-top: 1000px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+.service2{
+    padding: 50px 0;
+    
+}
+
+.service2 h3 {
+    font-size: 36px;
+    color: #f0d9eb;
+    margin-left: 600px;    
+    
+    text-align: right;
+}
+
+.service2 {
+   background-image: url(2.jpg);
+
+    color: #dad3fa;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #090909;
+    font-size: x-large;
+}
+.service2 h4{
+    margin-left: 600px;
+    text-align: right;
+}
+
+.service2 img {
+    margin-left: 1px;
+    width: 5000px;
+    max-width: 100px;
+    margin-bottom: 40px;
+}
+
+.service3{
+    padding: 50px 0;
+    
+}
+
+.service3 h3 {
+    font-size: 36px;
+    color: #f0d9eb;
+    margin-left: 0px;    
+    
+    text-align: left;
+}
+
+.service3 {
+   background-image: url(2.jpg);
+
+    color: #dad3fa;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #090909;
+    font-size: x-large;
+}
+.service3 h4{
+    margin-left: 600px;
+    text-align: right;
+}
+
+.service3 img {
+    margin-left: 1px;
+    width: 5000px;
+    max-width: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.service1{
+    padding: 50px 0;
+    
+}
+
+.service1 h3 {
+    font-size: 36px;
+    color: #f0d9eb;
+    margin-left: 600px;    
+    
+    text-align: right;
+}
+
+.service1 {
+    margin-left: 40px;
+text-align: center;
+    color: #dad3fa;
+    margin: 20px;
+    padding: 20px;
+ 
+    font-size: x-large;
+}
+.service1 h4{
+    margin-left: 600px;
+    text-align: center;
+}
+
+.service1text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #fff;
+}
+
+.footer_title
+{
+    color: #f0d9eb;
+}

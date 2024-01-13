@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylem.css">
+  <title>Car Booking</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Booking System</h1>
+  </header>
+  <main>
+    <section class="booking-form">
+      <h2>Book a Vehicle</h2>
+      <form>
+        <label for="car-type"></label>
+        <select id="car-type" name="car-type">
+          <option value="sedan">SELECT PRICE RANGE</option>
+          <option value="">500-1000 (SHORT DISTANCES)</option>
+          <option value="">1000-5000 (MEDIUM DISTANCES)</option>
+          <option value="">5000-10000 (LONG DISTANCES)</option>
+        </select>
+        
+        <label for="pickup-date">Pickup Date:</label>
+        <input type="date" id="pickup-date" name="pickup-date">
+
+        <label for="pickup-location">Pickup location:</label>
+        <input type="location" id="pickup-location" name="pickup-location" placeholder="ENTER LOCATION">
+        
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" name="return-date">
+
+        <label for="return-location">Return location:</label>
+        <input type="location" id="return-location" name="return-location"placeholder="ENTER LOCATION">
+        
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Car Booking System</p>
+  </footer>
+</body>
+</html>

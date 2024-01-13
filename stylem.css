@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url("https://thumbs.dreamstime.com/b/fast-supercar-driving-high-speed-stunning-neon-lights-city-glowing-background-motion-blur-effect-speed-neon-lights-273725638.jpg");
+      
+    
+  }
+  
+  header {
+    
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .booking-form {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #9F4D95, #20347A);
+
+
+
+
+
+
+
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select, input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ /* Style for the <h1> heading */
+h1 {
+  font-size: 48px; /* Adjust the font size as needed */
+  font-weight: bold; /* Add a bold font weight for emphasis */
+  color: #efefef; /* Choose an appropriate color */
+  text-align: center; /* Center-align the text */
+  
+  margin-bottom: 20px; /* Add space below the heading */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+ 
